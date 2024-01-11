@@ -26,7 +26,7 @@ Task is to enhanced data exfiltration detection through DNS traffic analysis : 1
    +	'subdomain': The subdomain.
   
 ### Target variable:
-   +	'Target Attack: Target Attack label, where 1 indicates an attack and 0 indicates no attack
+   +	'Target Attack' : Target Attack label, where 1 indicates an attack and 0 indicates no attack
 
 
 ## **Key Tasks Undertaken**
