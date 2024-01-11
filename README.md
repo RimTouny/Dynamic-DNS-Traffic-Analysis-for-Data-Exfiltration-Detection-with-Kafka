@@ -1,0 +1,2 @@
+# Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka
+Crafting static and dynamic models for data exfiltration detection via DNS traffic analysis. Static model trained on batch data, while dynamic model simulates a continuous stream. Rigorous analysis, feature engineering, and model training conducted. Implementation part of AI for Cyber Security Master's assignment at the University of Ottawa, 2023.
