@@ -115,5 +115,11 @@ Task is to enhanced data exfiltration detection through DNS traffic analysis : 1
    7. Performance Comparison Visualization:
 
       - Plotted F1 scores of the dynamic model across iterations to observe its performance over time.
+        ![download](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/47e7d430-5fa7-4609-9686-eac18714799c)
+
       - Plotted F1 scores of the static model across iterations for comparison.
+        ![download](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/b50d0d37-51ec-41ca-a305-43587bededbd)
+
       - Plotted F1 scores of both models on the same plot for a comprehensive comparison.
+        ![download](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/5f97f7dc-22a0-48c4-809d-84dbbf4b4ec7)
+
