@@ -86,3 +86,34 @@ Task is to enhanced data exfiltration detection through DNS traffic analysis : 1
         ![merge_from_ofoct (4)](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/0217333f-6526-4663-8b75-8fbaa2cfb51e)
 
     12. Save the Champion Model for the Dynamic phase.
+
++ **Dynamic Model
+   1. Kafka Consumer Setup:
+      - Created a Kafka consumer instance for 'ml-raw-dns' topic, connecting to a Kafka broker on 'localhost:9092'.
+      - Configured the consumer to start from the earliest offset and use manual offset committing.
+        
+   2. Data Retrieval and Adjustment:
+      - Implemented a function to retrieve 1000 records from the Kafka consumer.
+      - Utilized the retrieved data to create a DataFrame with predefined columns.
+        
+   3. Data Cleaning: as done in Static Model.
+      - Defined functions for adjusting and cleaning data, including converting categorical values to numerical indices.
+      - Dropped unnecessary columns and converted the DataFrame to a consistent data type.
+        
+   4. Model Loading and Retraining:
+      - Loaded a pre-trained Random Forest model from a pickle file.
+      - Initialized both static and dynamic models with the loaded model.
+        
+   5. Dynamic Model Evaluation and Retraining:
+      - Simulated continuous data processing over 199 iterations.
+      - Evaluated the dynamic model's F1 score without retraining for each iteration.
+      - Retrained the dynamic model if its F1 score fell below 0.80 and updated it with new training data.
+        
+   6. Static Model Evaluation:
+      - Evaluated the F1 score of the static model for each iteration without retraining.
+        
+   7. Performance Comparison Visualization:
+
+      - Plotted F1 scores of the dynamic model across iterations to observe its performance over time.
+      - Plotted F1 scores of the static model across iterations for comparison.
+      - Plotted F1 scores of both models on the same plot for a comprehensive comparison.
