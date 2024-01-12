@@ -63,11 +63,14 @@ Task is to enhanced data exfiltration detection through DNS traffic analysis : 1
 
     6.  Evaluation performance:
        - Using F1-score, get the  Best Feature Selection/ Model
-        ![image](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/f175eced-0f99-4070-879d-c817ec3744bc)
+         <p align="center">
+           <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/f175eced-0f99-4070-879d-c817ec3744bc" />
+         </p>
 
            Number of Best Feature:
-        
-           ![image](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/08788240-dc08-41bc-8a28-d2b599e0fd64)
+              <p align="center">
+                 <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/08788240-dc08-41bc-8a28-d2b599e0fd64"/>
+               </p>
 
    - Best F1-score is using Mutual Information on Random Forest Model.
        ```python
@@ -81,9 +84,13 @@ Task is to enhanced data exfiltration detection through DNS traffic analysis : 1
   
 
     10. Champion Static Model :
-        ![image](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/84cecf28-e6af-4cff-82e3-87b3acbc43c1)
+        <p align="center">
+           <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/84cecf28-e6af-4cff-82e3-87b3acbc43c1"/>
+        </p>
         
-        ![merge_from_ofoct (4)](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/0217333f-6526-4663-8b75-8fbaa2cfb51e)
+        <p align="center">
+           <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/0217333f-6526-4663-8b75-8fbaa2cfb51e"/>
+        </p>
 
     12. Save the Champion Model for the Dynamic phase.
 
@@ -115,11 +122,18 @@ Task is to enhanced data exfiltration detection through DNS traffic analysis : 1
    7. Performance Comparison Visualization:
 
       - Plotted F1 scores of the dynamic model across iterations to observe its performance over time.
-        ![download](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/47e7d430-5fa7-4609-9686-eac18714799c)
+        <p align="center">
+           <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/47e7d430-5fa7-4609-9686-eac18714799c"/>
+        </p>
 
       - Plotted F1 scores of the static model across iterations for comparison.
-        ![download](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/b50d0d37-51ec-41ca-a305-43587bededbd)
+        <p align="center">
+           <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/b50d0d37-51ec-41ca-a305-43587bededbd"/>
+        </p>
 
       - Plotted F1 scores of both models on the same plot for a comprehensive comparison.
-        ![download](https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/5f97f7dc-22a0-48c4-809d-84dbbf4b4ec7)
+        <p align="center">
+           <img src="https://github.com/RimTouny/Dynamic-DNS-Traffic-Analysis-for-Data-Exfiltration-Detection-with-Kafka/assets/48333870/5f97f7dc-22a0-48c4-809d-84dbbf4b4ec7"/>
+        </p>
+
 
